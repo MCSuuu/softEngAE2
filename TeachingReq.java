@@ -1,15 +1,17 @@
-import java.util.ArrayList;
-
 public class TeachingReq {
     private String reqTrain;
     private int reqStaffNo;
+    private String labName;
 
-    public TeachingReq(String t,int n){ //TeachingReq objects contains 1 required training
-        reqTrain = t;                   //and required number of staffs.
+
+    public TeachingReq(String l,String t,int n){ //TeachingReq objects contains 1 lab name
+        labName = l;                             //1 required training
+        reqTrain = t;                            //and 1 required number of staffs.
         reqStaffNo=n;
+
     }
 
     public String toString(){
-         return "Required training: "+reqTrain+",required number of staffs: "+ reqStaffNo;
+         return "Lab name: "+ labName+",required training: "+reqTrain+",required number of staffs: "+ reqStaffNo;
     }
 }
