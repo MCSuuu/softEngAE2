@@ -11,3 +11,8 @@ public class test {
 
     }
 }
+----------------------------------------------
+    output:
+Course name: programming ,ID: 4039,Course requirements: []
+Required training: [java],required number of staffs: 3
+Course name: programming ,ID: 4039,Course requirements: [Required training: [java],required number of staffs: 3]
