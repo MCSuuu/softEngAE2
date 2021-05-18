@@ -17,7 +17,7 @@ public class Course {
         classRequirements.remove(tR);
     }
     public String toString(){
-        return "Course name: "+ name+" ,ID: "+courseID+",Course requirements: "+classRequirements;
+        return  name+","+courseID+classRequirements+" ";
     }
     public ArrayList<TeachingReq> getReq(){
         return classRequirements;
