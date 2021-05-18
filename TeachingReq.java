@@ -7,11 +7,14 @@ public class TeachingReq {
     public TeachingReq(String l,String t,int n){ //TeachingReq objects contains 1 lab name
         labName = l;                             //1 required training
         reqTrain = t;                            //and 1 required number of staffs.
-        reqStaffNo=n;
+        reqStaffNo= n;
 
     }
 
     public String toString(){
-         return "Lab name: "+ labName+",required training: "+reqTrain+",required number of staffs: "+ reqStaffNo;
+         return labName+","+reqTrain+","+reqStaffNo;
+    }
+    public String getTrain(){
+        return this.reqTrain;
     }
 }
